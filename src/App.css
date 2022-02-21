@@ -74,6 +74,11 @@ main {
   width: 40px;
   margin: 40px;
 }
+.react {
+  width: 40px;
+  margin: 40px;
+}
+
 .hide {
   display: none;
 }
