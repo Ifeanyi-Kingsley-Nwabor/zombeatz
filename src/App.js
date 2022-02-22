@@ -14,7 +14,6 @@ function App() {
         <Route exact path="/">
           <Authentication />
         </Route>
-
         <Route exact path="/about">
           <About />
         </Route>

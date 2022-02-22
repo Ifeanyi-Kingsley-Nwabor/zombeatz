@@ -8,9 +8,6 @@ const Navigation = () => {
       <div className="nav-wrapper">
         <img src={logo} className="App-logo" alt="Logo" />
         <ul id="nav-mobile" className="right ">
-          {/* <li>
-            <NavLink to="/">Login</NavLink>
-          </li> */}
           <li>
             <NavLink to="/about">About</NavLink>
           </li>

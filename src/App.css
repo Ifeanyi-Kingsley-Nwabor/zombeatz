@@ -70,13 +70,9 @@ main {
   margin: 0 auto;
 }
 
-.amplify {
-  width: 40px;
-  margin: 40px;
-}
 .react {
   width: 40px;
-  margin: 40px;
+  margin: 30px;
 }
 
 .hide {
@@ -87,4 +83,24 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.signout {
+  margin-top: 80px;
+}
+
+/* Clear floats after the columns */
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.my_todos {
+  display: flex;
+  flex-direction: row;
+  width: 93%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.todo_text {
+  text-align: center;
 }
